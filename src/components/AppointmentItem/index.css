@@ -1,0 +1,29 @@
+.appointmentItem-card {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #b5b7c4;
+  width: 40vh;
+  height: 12vh;
+  border-radius: 8px;
+  margin: 16px;
+}
+.text-img {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 16px;
+  margin-right: 16px;
+  margin-top: 16px;
+}
+.date-text {
+  margin-left: 16px;
+}
+.starButton {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+  outline: none;
+}
+.appointment-text {
+  color: #171f46;
+  font-weight: bold;
+}

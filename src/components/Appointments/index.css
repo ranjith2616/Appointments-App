@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+}
+.bg-container {
+  background-image: linear-gradient(#fbc7d4, #9796f0);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card-container {
+  background-color: #ffffff;
+  min-height: 60vh;
+
+  width: 100vh;
+  border-radius: 12px;
+}
+.text-date {
+  width: 200px;
+  height: 30px;
+  outline: none;
+  margin-top: 16px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.add-button {
+  background-color: #8b5cf6;
+  color: #ffffff;
+  width: 100px;
+  height: 26px;
+  border: 0px;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 16px;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.appointment-img {
+  height: 30vh;
+}
+.top-card {
+  margin-top: 36px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.heading {
+  margin-bottom: 36px;
+}
+
+@media (max-width: 767px) {
+  .appointment-img {
+    display: none;
+  }
+  .card-container {
+    width: 50vh;
+  }
+}
+
+.underline {
+  margin: 26px;
+}
+
+.bottom-card-heading {
+  font-size: 28px;
+}
+.bottom-heading-button-card {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 36px;
+  margin-right: 36px;
+}
+.stared-btn {
+  border: 1px solid #8b5cf6;
+  color: #8b5cf6;
+  border-radius: 26px;
+  width: 80px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.isClikedStarBtn {
+  background-color: #8b5cf6;
+  color: #ffffff;
+}
+
+.appointment-container {
+  display: flex;
+  flex-wrap: wrap;
+}
